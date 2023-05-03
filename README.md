@@ -21,7 +21,7 @@ Find AZOS and more info about it [here.](https://sites.google.com/view/azosoffic
  
 
  - [x] Fully open-source the project.
- - [ ] First Release
+ - [x] First Release
  - [ ] Add Snaps
  - [ ] ARM processor supprort.
  - [ ] "Touch" version
