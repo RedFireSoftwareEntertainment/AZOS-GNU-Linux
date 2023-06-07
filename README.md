@@ -38,3 +38,5 @@ We accept pull-requests, so you can add bug fixes and new features, and secure a
  - Red Fire Software Entertainment.
 
 **Thank you for reading and supporting AZOS!**
+
+For legal infortmation visit our [legal page.](https://sites.google.com/view/azosofficialsite/home)
