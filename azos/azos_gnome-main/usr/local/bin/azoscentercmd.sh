@@ -1,5 +1,19 @@
 #!/usr/bin/env bash
 
+###########
+###Legal###
+###########
+
+#This is a free and opensource script. It doesn't and will never cost money. Our trademark and redistribution policy applies
+#here too since this is part of The AZOS Operating System project. You can read it in the legal page of the official AZOS 
+#project website, aswell as the Licence.
+
+#Keep in mind that the official download site will always be the AZOS GitHub repository and the official Downloads page in
+#the official AZOS website.
+
+#© Red Fire Software Entertainment(2019 - 2023). All rights reserved.
+
+
 invalid(){
  echo "Invalid Choice"
  exit
