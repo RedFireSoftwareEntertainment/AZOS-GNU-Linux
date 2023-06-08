@@ -22,6 +22,7 @@ invalid(){
 updatesystem(){
   echo "AZOS will check for updates..."
   sudo pacman -Syu
+  sudo flatpak update
   clear
   echo "Done updating the system..."
   sleep 3
