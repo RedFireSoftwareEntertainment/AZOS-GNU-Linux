@@ -420,5 +420,9 @@ wine
 #flatpak
 flatpak
 
-#officesuite
+#Office
 libreoffice-still
+
+#Gaming
+gamemode
+lib32-gamemode
