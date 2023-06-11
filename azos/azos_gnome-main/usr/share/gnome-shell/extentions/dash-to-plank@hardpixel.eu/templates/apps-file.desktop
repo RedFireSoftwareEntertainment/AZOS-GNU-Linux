@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Show Applications
+Comment=Open GNOME Shell applications list.
+NoDisplay=true
+Icon=net.launchpad.plank.AppsLauncher
+Exec=gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell/Extensions/DashToPlank --method org.gnome.Shell.Extensions.DashToPlank.ShowApplications
+Actions=Activities;Preferences;
+
+[Desktop Action Activities]
+Name=Activities
+Exec=gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell/Extensions/DashToPlank --method org.gnome.Shell.Extensions.DashToPlank.ShowActivities
+
+[Desktop Action Preferences]
+Name=Preferences
+Exec=gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell/Extensions/DashToPlank --method org.gnome.Shell.Extensions.DashToPlank.ShowPreferences
