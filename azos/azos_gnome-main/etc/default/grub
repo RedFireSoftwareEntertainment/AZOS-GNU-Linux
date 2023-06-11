@@ -1,7 +1,7 @@
 # GRUB boot loader configuration
 
 GRUB_DEFAULT=0
-GRUB_TIMEOUT=5
+GRUB_TIMEOUT=0
 GRUB_DISTRIBUTOR="AZOS"
 GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet"
 GRUB_CMDLINE_LINUX=""
@@ -39,15 +39,14 @@ GRUB_DISABLE_RECOVERY=true
 
 # Uncomment and set to the desired menu colors.  Used by normal and wallpaper
 # modes only.  Entries specified as foreground/background.
-#GRUB_COLOR_NORMAL="light-blue/black"
-#GRUB_COLOR_HIGHLIGHT="light-cyan/blue"
+GRUB_COLOR_NORMAL="light-blue/black"
+GRUB_COLOR_HIGHLIGHT="light-cyan/blue"
 
 # Uncomment one of them for the gfx desired, a image background or a gfxtheme
 #GRUB_BACKGROUND="/path/to/wallpaper"
 #GRUB_THEME="/path/to/gfxtheme"
 
-# Uncomment to get a beep at GRUB start
-#GRUB_INIT_TUNE="480 440 1"
+GRUB_INIT_TUNE="300 600 1 300 1 350 1 700 1 400 1 800 1 350 1 700 1 300 1 600 1 450 1 900 1 400 1 800 1 350 1 700 1 300 3"
 
 # Uncomment to make GRUB remember the last selection. This requires
 # setting 'GRUB_DEFAULT=saved' above.
