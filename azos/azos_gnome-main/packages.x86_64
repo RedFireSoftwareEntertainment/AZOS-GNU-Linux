@@ -365,7 +365,6 @@ nautilus
 orca
 papirus-icon-theme
 pavucontrol
-plank
 polkit-gnome
 rygel
 sushi
@@ -409,6 +408,9 @@ qt5ct
 solid
 yaml-cpp
 
+#Additional AZOS Desktop modifications
+plank
+
 # Calamares
 calamares
 ckbcomp
@@ -416,6 +418,7 @@ mkinitcpio-openswap
 
 #Windows App Support
 wine
+winetricks
 
 #flatpak
 flatpak
@@ -424,4 +427,4 @@ flatpak
 libreoffice-still
 
 #Gaming
-
+wine-nine
