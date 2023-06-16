@@ -1,5 +1,7 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
+#
+
 alsa-utils
 amd-ucode
 arch-install-scripts
@@ -428,3 +430,23 @@ libreoffice-still
 
 #Gaming
 wine-nine
+
+#XanMod Kernel Dependencies
+coreutils
+dracut-git
+booster-git
+booster-wip-git 
+mkinitcpio-git 
+booster
+dracut
+kmod
+bc
+cpio
+kmod
+libelf
+tar
+wireless-regdb-pentest 
+wireless-regdb
+
+#XanMod Kernel
+#to be added (Will use at this state Linux Kernel currently)
