@@ -196,13 +196,18 @@ xz
 zstd
 
 # Filesystem
-gvfs
-gvfs-afc
-gvfs-goa
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
+grub-btrfs
+btrfs-progs 
+#btrfs-assistant and btrfsmaintenance are to be added (if you are buidling this ISO from source, it could be better for you to use gvfs at the moment)
+
+#If you are building this ISO from source and you prefer to use gvfs, then uncomment the gvfs related section below and comment the btrfs related section above
+#gvfs
+#gvfs-afc
+#gvfs-goa
+#gvfs-gphoto2
+#gvfs-mtp
+#gvfs-nfs
+#gvfs-smb
 
 # Multimedia
 alsa-lib
@@ -231,7 +236,7 @@ libopenraw
 mencoder
 mjpegtools
 poppler-glib
-# Pipewire
+
 pipewire
 pipewire-alsa
 pipewire-docs
@@ -240,12 +245,14 @@ pipewire-pulse
 alsa-card-profiles
 gst-plugin-pipewire
 wireplumber
-# Pulseaudio(not used)
-# pulseaudio
-# pulseaudio-alsa
-# pulseaudio-bluetooth
-# pulseaudio-equalizer
-# pulseaudio-jack
+
+#If you are building this ISO from source and you prefer to use pulseaudio then uncomment the pulseaudio related section below and comment the pipewire section above
+#pulseaudio
+#pulseaudio-alsa
+#pulseaudio-bluetooth
+#pulseaudio-equalizer
+#pulseaudio-jack
+
 sox
 transcode
 x265
@@ -253,7 +260,7 @@ x264
 xvidcore
 yt-dlp
 
-# XORG
+#XORG
 mesa
 xorg
 xorg-server
@@ -262,7 +269,7 @@ xorg-drivers
 xorg-xkill
 xorg-xinit
 
-# Networking
+#Networking
 curl
 dnsutils
 ethtool
@@ -284,7 +291,7 @@ r8168
 wget
 whois
 
-# Fonts
+#Fonts
 ttf-dejavu
 ttf-liberation
 ttf-bitstream-vera
@@ -298,7 +305,7 @@ opendesktop-fonts
 ttf-opensans
 freetype2
 
-# Printing Support
+#Printing Support
 cups
 cups-pdf
 cups-filters
@@ -315,7 +322,7 @@ python-reportlab
 simple-scan
 system-config-printer
 
-# Gnome
+#GNOME
 accountsservice
 adwaita-icon-theme
 adwaita-qt5
@@ -379,10 +386,10 @@ xdg-desktop-portal-gnome
 xdg-user-dirs-gtk
 yelp
 
-# Display Manager
+#Display Manager
 gdm
 
-# Calamares dependencies
+#Calamares dependencies
 boost
 boost-libs
 extra-cmake-modules
@@ -414,7 +421,7 @@ yaml-cpp
 #Additional AZOS Desktop modifications
 plank
 
-# Calamares
+#Calamares
 calamares
 ckbcomp
 mkinitcpio-openswap
@@ -434,3 +441,5 @@ wine-nine
 
 #Python Related
 tk
+
+#User-added packages (If you plan to build this ISO from source, here is a little section for you... you are welcome!)
