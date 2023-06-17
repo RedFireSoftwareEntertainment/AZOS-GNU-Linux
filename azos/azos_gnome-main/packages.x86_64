@@ -450,3 +450,6 @@ wireless-regdb
 
 #XanMod Kernel
 #to be added (Will use stock Linux Kernel currently)
+
+#Python Related
+tk
