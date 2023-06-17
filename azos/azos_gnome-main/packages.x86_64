@@ -49,6 +49,7 @@ less
 libfido2
 libusb-compat
 linux
+linux-zen
 linux-atm
 linux-firmware
 linux-firmware-bnx2x
@@ -430,26 +431,6 @@ libreoffice-still
 
 #Gaming
 wine-nine
-
-#XanMod Kernel Dependencies
-coreutils
-dracut-git
-booster-git
-booster-wip-git 
-mkinitcpio-git 
-booster
-dracut
-kmod
-bc
-cpio
-kmod
-libelf
-tar
-wireless-regdb-pentest 
-wireless-regdb
-
-#XanMod Kernel
-#to be added (Will use stock Linux Kernel currently)
 
 #Python Related
 tk
