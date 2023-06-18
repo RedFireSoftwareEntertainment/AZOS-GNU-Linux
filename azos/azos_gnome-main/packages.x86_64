@@ -431,15 +431,18 @@ mkinitcpio-openswap
 #Windows App Support
 wine
 winetricks
+wine-mono
+
+#Gaming
+wine-nine
+lib32-vkd3d
+vkd3d
 
 #flatpak
 flatpak
 
 #Office
 libreoffice-still
-
-#Gaming
-wine-nine
 
 #Python Related
 tk
