@@ -198,16 +198,14 @@ zstd
 # Filesystem
 grub-btrfs
 btrfs-progs 
-#btrfs-assistant and btrfsmaintenance are to be added (if you are buidling this ISO from source, it could be better for you to use gvfs at the moment)
-
-#If you are building this ISO from source and you prefer to use gvfs, then uncomment the gvfs related section below and comment the btrfs related section above
-#gvfs
-#gvfs-afc
-#gvfs-goa
-#gvfs-gphoto2
-#gvfs-mtp
-#gvfs-nfs
-#gvfs-smb
+#btrfs-assistant and btrfsmaintenance are to be added
+gvfs
+gvfs-afc
+gvfs-goa
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
 
 # Multimedia
 alsa-lib
@@ -351,6 +349,7 @@ gnome-keyring
 gnome-logs
 gnome-maps
 gnome-menus
+gnome-music
 gnome-packagekit
 gnome-power-manager
 gnome-remote-desktop
@@ -372,6 +371,8 @@ gsound
 gvfs-google
 mutter
 nautilus
+cheese
+evince
 orca
 papirus-icon-theme
 pavucontrol
@@ -380,6 +381,7 @@ rygel
 sushi
 tldr
 tmux
+totem
 tracker3-miners
 transmission-gtk
 xdg-desktop-portal-gnome
