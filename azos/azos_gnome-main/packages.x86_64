@@ -419,13 +419,13 @@ git
 qt5-tools
 qt5-translations
 
-#Additional AZOS Desktop modifications
-plank
-
 #Calamares
 calamares
 ckbcomp
 mkinitcpio-openswap
+
+#Additional AZOS Desktop modifications
+plank
 
 #Windows App Support
 wine
