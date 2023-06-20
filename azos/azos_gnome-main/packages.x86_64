@@ -392,33 +392,32 @@ yelp
 gdm
 
 #Calamares dependencies
-boost
 boost-libs
-extra-cmake-modules
+ckbcomp
+efibootmgr
 gtk-update-icon-cache
+hwinfo
 icu
 kconfig
 kcoreaddons
-kdbusaddons
-kiconthemes
 ki18n
+kiconthemes
 kio
-kparts
 kpmcore
-kservice
-kwidgetsaddons
 libpwquality
+mkinitcpio-openswap
 plasma-framework
 polkit-qt5
-qt5-location
 qt5-svg
+qt5-xmlpatterns
+solid
+squashfs-tools
+yaml-cpp
+boost
+extra-cmake-modules
+git
 qt5-tools
 qt5-translations
-qt5-webengine
-qt5-xmlpatterns
-qt5ct
-solid
-yaml-cpp
 
 #Additional AZOS Desktop modifications
 plank
