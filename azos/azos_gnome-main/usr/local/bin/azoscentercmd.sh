@@ -6,10 +6,7 @@
 
 #This is a free and opensource script. It doesn't and will never cost money. Our trademark and redistribution policy applies
 #here too since this is part of The AZOS Operating System project. You can read it in the legal page of the official AZOS 
-#project website, aswell as the Licence.
-
-#Keep in mind that the official download site will always be the AZOS GitHub repository and the official Downloads page in
-#the official AZOS website.
+#project website.
 
 #© Red Fire Software Entertainment(2019 - 2023). All rights reserved.
 
@@ -32,6 +29,11 @@ updatesystem(){
 
 istlorupdatewine(){
   sudo pacman -S wine
+  sudo pacman -S winetricks
+  sudo pacman -S wine-nine
+  sudo pacman -S wine-mono
+  sudo pacman -S lib32-vkd3d
+  sudo pacman -S vkd3d
   clear
   echo "Wine installed/updated"
   sleep 3
@@ -39,6 +41,11 @@ istlorupdatewine(){
   exit
 }
 unistwine(){
+  sudo pacman -R winetricks
+  sudo pacman -R wine-nine
+  sudo pacman -R wine-mono
+  sudo pacman -R lib32-vkd3d
+  sudo pacman -R vkd3d
   sudo pacman -R wine
   clear
   echo "Wine uninstalled"
