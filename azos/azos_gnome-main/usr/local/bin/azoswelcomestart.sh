@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ -e /usr/bin/azoswelcome.py ]
 then
     pip install pywebview
