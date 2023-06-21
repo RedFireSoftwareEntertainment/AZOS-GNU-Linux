@@ -1,6 +1,14 @@
+## **This Repo**
+
+**Here resides the .iso file source code that we build. The updates in AZOS GNU/Linux work something like this:**
+
+
+
+If you want to compile this code from source, you will have to write your own script for the time being. A script provided by Red Fire Software Entertainment Officially may come in the near future.
+
 ## **The AZOS GNU/Linux operating system, based on Arch Linux, mainly focused on user friendliness and gaming.**
 
-AZOS is a GNU/Linux distribution, focused on providing a user friendly environment and a great and fast workflow, achieved through the usage of the GNOME Desktop.
+AZOS is a GNU/Linux distribution, focused on providing a user friendly environment and a great and fast workflow, achieved through the usage of the GNOME Desktop. Our biggest goal is to make Linux an ideal platform for gaming.
 
 ## AZOS Features
 
