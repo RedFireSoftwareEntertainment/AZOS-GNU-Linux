@@ -46,7 +46,8 @@ We accept pull-requests, so you can add bug fixes and new features, and secure a
 
 If you want to compile this code from source, you will have to write your own script for the time being. A script provided by Red Fire Software Entertainment Officially may come in the near future.
 
-**Thank you for reading and supporting AZOS!**
+
+## **Thank you for reading and supporting AZOS!**
 
 For legal infortmation visit our [legal page.](https://sites.google.com/view/azosofficialsite/home)
 
