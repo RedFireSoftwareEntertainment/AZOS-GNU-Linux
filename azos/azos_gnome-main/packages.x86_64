@@ -426,6 +426,7 @@ mkinitcpio-openswap
 
 #Additional AZOS Desktop modifications
 plank
+webkit2gtk
 
 #Windows App Support
 wine
