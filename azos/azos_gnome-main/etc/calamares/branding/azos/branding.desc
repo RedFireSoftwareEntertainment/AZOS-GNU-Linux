@@ -79,7 +79,7 @@ windowPlacement: center
 # to putting the sidebar on the left. Also valid is "qml,top".
 # While "widget,top" is valid, the widgets code is **not** flexible
 # and results will be terrible.
-sidebar: widget
+sidebar: widget, bottom
 
 # Kind of navigation (button panel on the bottom).
 #  - "widget" or unset, use traditional navigation
@@ -164,7 +164,7 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:     "banner.png"
-    productIcon:         "squid.png"
+    productIcon:         "azosinstallicon.png"
     productLogo:         "logo.png"
     productWallpaper:    "wallpaper.jpg"
     productWelcome:      "languages.png"
