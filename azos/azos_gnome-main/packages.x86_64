@@ -198,6 +198,8 @@ zstd
 # Filesystem
 grub-btrfs
 btrfs-progs 
+snapper
+btrbk
 #btrfs-assistant and btrfsmaintenance are to be added
 gvfs
 gvfs-afc
