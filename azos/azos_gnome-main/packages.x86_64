@@ -200,7 +200,8 @@ grub-btrfs
 btrfs-progs 
 snapper
 btrbk
-#btrfs-assistant and btrfsmaintenance are to be added
+btrfs-assistant 
+btrfsmaintenance
 gvfs
 gvfs-afc
 gvfs-goa
