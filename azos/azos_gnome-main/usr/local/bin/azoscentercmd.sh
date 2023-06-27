@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+#THIS SCRIPT IS CURRENTLY UNUSED BUT WILL BE LEFT IN THE SOURCE CODE FOR FUTURE UPDATES
+
 ###########
 ###Legal###
 ###########
