@@ -440,24 +440,11 @@ wine-nine
 lib32-vkd3d
 vkd3d
 
+#Graphic Design
+pinta
+
 #flatpak
 flatpak
-
-#snap
-apparmor
-libseccomp
-libsystemd
-apparmor
-go
-go-tools
-libcap
-libseccomp
-python-docutils
-systemd
-xfsprogs
-bash-completion
-xdg-desktop-portal
-#snapd is to be added
 
 #Office
 libreoffice-still
