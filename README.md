@@ -52,3 +52,5 @@ If you want to compile this code from source, you will have to write your own sc
 For legal infortmation visit our [legal page.](https://sites.google.com/view/azosofficialsite/home)
 
 **Copyright© Red Fire Software Entertaiment Group 2019-2023** 
+
+If you are a developer of a package/dependency that you don't want included in AZOS GNU/Linux, contact us through our [website](https://sites.google.com/view/azosofficialsite/contact-us) and we will remove/replace it
