@@ -7,11 +7,13 @@ AZOS is a GNU/Linux distribution, focused on providing a user friendly environme
 
  
 
- 1. Extremely low resource usage.
+ 1. Low resource usage.
  2. Fast-paced and snappy workflow
  3. User-friendly and intuitive interface.
  4. Access to countless software repositories such as the Arch Linux repository, or Flatpak. 
  5. Fully compatible with Arch Linux software and documentation.
+ 6. Gaming Tweaks and Optimizations
+ 7. "Just works"
 
 ## Website
 Find AZOS and more info about it [here.](https://sites.google.com/view/azosofficialsite/home)
