@@ -9,3 +9,6 @@ then
 else
     echo "azoswelcome.py was already executed once in this system so we skip it."
 fi
+
+echo "we are also going to move all the extentions for the AZOS desktop from the 'tobeaddedext' folder to the 'extentions' folder"
+mv 
