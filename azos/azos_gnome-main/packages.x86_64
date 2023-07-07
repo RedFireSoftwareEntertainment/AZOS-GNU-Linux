@@ -452,10 +452,6 @@ libreoffice-still
 
 #Python Related
 tk
-pywebview
-python-pyqt5 
-python-pyqtwebengine
-python-gobject 
 webkit2gtk
 
 #User-added packages (If you plan to build this ISO from source, here is a little section for you... you are welcome!)
