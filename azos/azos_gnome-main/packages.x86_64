@@ -196,10 +196,10 @@ zstd
 
 # Filesystem
 grub-btrfs
-btrfs-progs 
+ #btrfs-progs 
+ #btrfs-assistant - removed temporalily because they cause problems when building iso
 snapper
 btrbk
-btrfs-assistant 
 btrfsmaintenance
 gvfs
 gvfs-afc
