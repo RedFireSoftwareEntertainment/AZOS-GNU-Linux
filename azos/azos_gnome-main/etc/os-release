@@ -1,6 +1,6 @@
 NAME="AZOS"
 PRETTY_NAME="AZOS GNU/Linux 2.0"
-ID=arch
+ID=azos
 BUILD_ID=rolling
 ANSI_COLOR="38;2;23;147;209"
 HOME_URL="https://sites.google.com/view/azosofficialsite/home"
