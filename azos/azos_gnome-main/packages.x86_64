@@ -196,8 +196,8 @@ zstd
 
 # Filesystem
 grub-btrfs
- #btrfs-progs 
- #btrfs-assistant - removed temporalily because they cause problems when building iso
+btrfs-progs 
+ #btrfs-assistant - removed temporalily because: cause problems when building iso
 snapper
 btrbk
 btrfsmaintenance
