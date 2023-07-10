@@ -454,4 +454,7 @@ libreoffice-still
 tk
 webkit2gtk
 
+#Other
+neofetch
+
 #User-added packages (If you plan to build this ISO from source, here is a little section for you... you are welcome!)
