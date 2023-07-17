@@ -1,4 +1,6 @@
 
+![AZOSLOGO](https://github.com/RedFireSoftwareEntertainment/AZOS-GNU-Linux/assets/98542488/5d05d7cd-22bb-4110-b638-f640515d7bd5)
+
 ## **The AZOS GNU/Linux operating system, based on Arch Linux, mainly focused on gaming.**
 
 AZOS is a GNU/Linux distribution, focused on providing a user friendly environment and a great and fast workflow, achieved through the usage of the GNOME Desktop. Our biggest goal is to make Linux an ideal platform for gaming.
