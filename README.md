@@ -47,7 +47,7 @@ We accept pull-requests, so you can add bug fixes and new features, and secure a
 
 ![Screenshot](https://github.com/RedFireSoftwareEntertainment/AZOS-GNU-Linux/blob/main/screenshots/howupdateswork.png?raw=true)
 
-If you want to compile this code from source, you will have to write your own script for the time being. A script provided by Red Fire Software Entertainment Officially may come in the near future.
+If you want to compile this code from source, you will have to run `steps.sh` by EZNIX inside the source code. Some times it will not work as azlocalrepository fails to sync sometimes.
 
 
 ## **Thank you for reading and supporting AZOS!**
