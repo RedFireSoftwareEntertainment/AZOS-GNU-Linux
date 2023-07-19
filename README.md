@@ -1,5 +1,4 @@
-
-![AZOSLOGO](https://github.com/RedFireSoftwareEntertainment/AZOS-GNU-Linux/assets/98542488/5d05d7cd-22bb-4110-b638-f640515d7bd5)
+![AZOSLOGO](https://github.com/RedFireSoftwareEntertainment/AZOS-GNU-Linux/assets/98542488/5d05d7cd-22bb-4110-b638-f640515d7bd5) # [**OFFICIAL SITE**](https://sites.google.com/view/azosofficialsite/home)
 
 ## **The AZOS GNU/Linux operating system, based on Arch Linux, mainly focused on gaming.**
 
@@ -52,7 +51,7 @@ If you want to compile this code from source, you will have to run `steps.sh` by
 
 ## **Thank you for reading and supporting AZOS!**
 
-For legal infortmation visit our [legal page.](https://sites.google.com/view/azosofficialsite/home)
+For legal infortmation visit our [legal page.](https://sites.google.com/view/azosofficialsite/legal)
 
 **Copyright© Red Fire Software Entertaiment Group 2019-2023** 
 
