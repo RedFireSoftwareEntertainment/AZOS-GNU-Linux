@@ -1,4 +1,5 @@
-![AZOSLOGO](https://github.com/RedFireSoftwareEntertainment/AZOS-GNU-Linux/assets/98542488/5d05d7cd-22bb-4110-b638-f640515d7bd5) [## **OFFICIAL SITE**](https://sites.google.com/view/azosofficialsite/home)
+![AZOSLOGO](https://github.com/RedFireSoftwareEntertainment/AZOS-GNU-Linux/assets/98542488/5d05d7cd-22bb-4110-b638-f640515d7bd5) 
+[**OFFICIAL SITE**](https://sites.google.com/view/azosofficialsite/home)
 
 ## **The AZOS GNU/Linux operating system, based on Arch Linux, mainly focused on gaming.**
 
