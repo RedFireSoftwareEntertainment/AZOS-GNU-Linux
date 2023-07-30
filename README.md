@@ -49,7 +49,7 @@ We accept pull-requests, so you can add bug fixes and new features, and secure a
 
 ![Screenshot](https://github.com/RedFireSoftwareEntertainment/AZOS-GNU-Linux/blob/main/screenshots/howupdateswork.png?raw=true)
 
-If you want to compile this code from source, you will have to run `steps.sh` by EZNIX inside the source code. Some times it will not work as azlocalrepository fails to sync sometimes.
+If you want to compile this code from source, you will have to run `steps.sh` by EZNIX inside the source code. Some times it will not work as azlocalrepository fails to sync.
 
 
 ## **Thank you for reading and supporting AZOS!**
