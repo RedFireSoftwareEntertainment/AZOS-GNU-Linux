@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="azos-2-gnome"
+iso_name="azos-2-kde"
 iso_label="AZOS_2_LINUX_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="Red Fire Software Entertainment"
 iso_application="AZOS DVD"
