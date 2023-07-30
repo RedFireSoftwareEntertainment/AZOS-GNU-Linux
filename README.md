@@ -4,14 +4,14 @@
 
 ## **The AZOS GNU/Linux operating system, based on Arch Linux, mainly focused on gaming.**
 
-AZOS is a GNU/Linux distribution, focused on providing a user friendly environment and a great and fast workflow, achieved through the usage of the GNOME Desktop. Our biggest goal is to make Linux an ideal platform for gaming.
+AZOS is a GNU/Linux distribution, focused on providing a user friendly environment and a great and fast workflow, achieved through the usage of the KDE Desktop. Our biggest goal is to make Linux an ideal platform for gaming.
 
 ## AZOS Features
  
 
  1. Low resource usage.
  2. Fast-paced and snappy workflow
- 3. User-friendly and intuitive interface. (GNOME Desktop)
+ 3. User-friendly and intuitive interface. (KDE Desktop)
  4. Access to countless software repositories such as the Arch Linux repository, or Flatpak. 
  5. Fully compatible with Arch Linux software and documentation.
  6. Gaming Tweaks and Optimizations
