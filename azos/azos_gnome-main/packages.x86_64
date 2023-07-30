@@ -332,23 +332,21 @@ bluez-qt
 breeze-icons
 discover
 dolphin
-geany
-guvcview
+breeze
 gwenview
 k3b
 kcalc
+kdevelop
+kdenlive
 kinit
 konsole
 kwallet
 kwalletmanager
 kwin
 kwrite
-meld
-neofetch
 networkmanager-qt
 okular
 packagekit-qt5
-papirus-icon-theme
 pavucontrol-qt
 plasma
 print-manager
@@ -410,7 +408,7 @@ vkd3d
 lutris
 
 #Graphic Design
-#pinta
+krita
 
 #flatpak
 flatpak
