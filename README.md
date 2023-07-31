@@ -36,7 +36,7 @@ Find AZOS and more info about it [here.](https://sites.google.com/view/azosoffic
  - [ ] Reduce .iso file size by making an installer over internet.
  - [ ] Finish the AZOS Center tool.
  - [ ] A dedicated AZOS Desktop Environment.
- - [ ] Make our own custom Software Suite for AZOS.
+ - [x] Make our own custom Software Suite for AZOS.
 
 ## Commiting to the project
 We accept pull-requests, so you can add bug fixes and new features, and secure a place on the following list:
