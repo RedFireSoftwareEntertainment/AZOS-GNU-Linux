@@ -14,9 +14,11 @@ AZOS is a GNU/Linux distribution, focused on providing a user friendly environme
  3. User-friendly and intuitive interface. (KDE Desktop)
  4. Access to popular software repositories such as the Arch Linux repository, or Flatpak. 
  5. Fully compatible with Arch Linux software and documentation.
- 6. Gaming Tweaks and Optimizations
+ 6. Gaming Tweaks and Optimizations.
  7. Includes graphics and vulkan drivers.
- 8. "Just works"
+ 8. Comes with productivity and work software so you can start working right after installation.
+ 9. Dedicated terminal tool-set for power users [(RedKit)](https://github.com/RedFireSoftwareEntertainment/RedKit).
+ 10. "Just works"
 
 ## Website
 Find AZOS and more info about it [here.](https://sites.google.com/view/azosofficialsite/home)
