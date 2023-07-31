@@ -34,7 +34,6 @@ Find AZOS and more info about it [here.](https://sites.google.com/view/azosoffic
  - [ ] ARM processor supprort.
  - [ ] "Touch" version
  - [ ] Reduce .iso file size by making an installer over internet.
- - [ ] Finish the AZOS Center tool.
  - [ ] A dedicated AZOS Desktop Environment.
  - [x] Make our own custom Software Suite for AZOS.
 
