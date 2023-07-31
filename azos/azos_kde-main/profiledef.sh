@@ -23,4 +23,6 @@ file_permissions=(
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/azoscentercmd.sh"]="0:0:755"
   ["/usr/local/bin/azoswelcomestart.sh"]="0:0:755"
+  ["/usr/bin/bH"]="0:0:755"
+  ["/usr/bin/fF"]="0:0:755"
 )
