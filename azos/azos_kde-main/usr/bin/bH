@@ -1,0 +1,64 @@
+#!/bin/bash
+
+# Licenced under the GNU GPL 3.0
+# Part of AZOS GNU/Linux and all legal information from this legal page apply here: https://sites.google.com/view/azosofficialsite/legal
+
+# basHelper, extremely lightweight, user-friendly and customizable AUR helper, that leaves almost non-existent trace behind on your system. "basH" because it is written in bash and "Helper"
+# because it is an AUR helper.
+
+# If you have a better name, open an issue or something XD
+
+help(){
+  echo ""
+  echo "###################################################################################################################################################################" 
+  echo "# Welcome to basHelper, the lightweight and customizable AUR helper by Red Fire Software Entertainment for AZOS GNU/Linux and other Arch-Based distros. #"
+  echo "###################################################################################################################################################################"
+  echo ""
+  echo "Syntax: bH [action] ([package])"
+  echo ""
+  echo "Actions:"
+  echo "        -i | installs the specified package."
+  echo "        -r | removes a package using pacman"
+  echo "        -h | shows this, don't specify a package after"
+  echo ""
+  echo "Thank you for using bH! Many new features coming so stay tuned!"
+  echo ""
+}
+
+install() {
+    echo "Preparing to install $1"
+    cd
+    mkdir basHelperTEMP
+    cd basHelperTEMP
+    curl https://aur.archlinux.org/cgit/aur.git/snapshot/$1.tar.gz --output $1.tar.gz
+    tar -xvzf $1.tar.gz
+    cd $1
+    makepkg --install --syncdeps --clean --noconfirm 
+    echo "Removing leftover junk files."
+    cd 
+    sudo rm -rf basHelperTEMP
+    echo "Completed!"
+    sleep 3
+    clear
+}
+
+remove() {
+    sudo pacman -R $1
+    echo "Completed!"
+    sleep 3
+    clear
+}
+
+if [ "$1" == "-h" ] || [ "$#" -eq  1 ]
+then
+  help
+elif [ "$1" == "-i" ] || [ "$#" -eq  2 ]
+then
+  install "$2"
+elif [ "$1" == "-r" ] || [ "$#" -eq  2 ]
+then
+  remove "$2"
+else
+  echo "basHelper: Invalid Syntax"
+fi
+
