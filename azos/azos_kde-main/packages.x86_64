@@ -47,8 +47,8 @@ kitty-terminfo
 less
 libfido2
 libusb-compat
-linux-zen
-linux-zen-headers
+linux
+linux-headers
 linux-atm
 linux-firmware
 linux-firmware-bnx2x
@@ -371,7 +371,6 @@ xdg-desktop-portal-kde
 # Display Manager
 sddm
 sddm-kcm
-gdm
 
 #Calamares dependencies
 boost-libs
@@ -455,8 +454,8 @@ mesa-amber
 lib32-mesa
 lib32-mesa-amber
 xf86-video-intel
-nvidia-dkms
-nvidia-open-dkms
+nvidia
+nvidia-open
 lib32-nvidia-utils
 xf86-video-amdgpu
 libva-mesa-driver
