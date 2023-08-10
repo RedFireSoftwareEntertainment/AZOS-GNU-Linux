@@ -110,7 +110,6 @@ cp -r grub ./azdir/
 cp -r efiboot ./azdir/
 cp -r syslinux ./azdir/
 cp -r etc ./azdir/airootfs/
-cp -r opt ./azdir/airootfs/
 cp -r usr ./azdir/airootfs/
 }
 
