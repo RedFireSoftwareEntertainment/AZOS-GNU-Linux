@@ -39,17 +39,6 @@ MYHOSTNM="azos"
 # Functions
 # ----------------------------------------
 
-# Test for root user
-rootuser () {
-  if [[ "$EUID" = 0 ]]; then
-    continue
-  else
-    echo "Please Run As Root"
-    sleep 2
-    exit
-  fi
-}
-
 # Display line error
 handlerror () {
 clear
@@ -220,11 +209,17 @@ runmkarchiso () {
 mkarchiso -v -w ./work -o ./out ./azdir
 }
 
+
+# ----------------------------------------
+# Get superuser perms
+# ----------------------------------------
+
+su
+
 # ----------------------------------------
 # Run Functions
 # ----------------------------------------
 
-rootuser
 handlerror
 prepreqs
 cleanup
