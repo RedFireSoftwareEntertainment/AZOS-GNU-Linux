@@ -6,7 +6,7 @@
 
 AZOS is a GNU/Linux distribution, focused on providing a user friendly environment and a great and fast workflow, achieved through the usage of the KDE Desktop. Our biggest goal is to make Linux an ideal platform for everyday users.
 
-## AZOS Features
+## AZOS GNU/Linux Features
  
 
  1. Low resource usage.
@@ -21,7 +21,7 @@ AZOS is a GNU/Linux distribution, focused on providing a user friendly environme
  10. "Just works"
 
 ## Website
-Find AZOS and more info about it [here.](https://sites.google.com/view/azosofficialsite/home)
+Find AZOS GNU/Linux and more info about it [here.](https://sites.google.com/view/azosofficialsite/home)
  
  
 ## Our Goals
@@ -35,7 +35,7 @@ Find AZOS and more info about it [here.](https://sites.google.com/view/azosoffic
  - [ ] "Touch" version
  - [ ] Reduce .iso file size by making an installer over internet.
  - [ ] A dedicated AZOS Desktop Environment.
- - [x] Make our own custom Software Suite for AZOS.
+ - [x] Make our own custom Software Suite for AZOS GNU/Linux.
 
 ## Commiting to the project
 We accept pull-requests, so you can add bug fixes and new features, and secure a place on the following list:
@@ -53,7 +53,7 @@ We accept pull-requests, so you can add bug fixes and new features, and secure a
 If you want to compile this code from source, you will have to run `steps.sh` by EZNIX inside the source code. Some times it will not work as azlocalrepository fails to sync.
 
 
-## **Thank you for reading and supporting AZOS!**
+## **Thank you for reading and supporting AZOS GNU/Linux!**
 
 For legal infortmation visit our [legal page.](https://sites.google.com/view/azosofficialsite/legal)
 
