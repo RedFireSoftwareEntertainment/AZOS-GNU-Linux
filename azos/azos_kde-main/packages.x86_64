@@ -432,7 +432,7 @@ libreoffice-still
 tk
 webkit2gtk
 
-#Drivers
+#Drivers and Vulkan
 vulkan-icd-loader
 lib32-vulkan-icd-loader
 primus_vk
