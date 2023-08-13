@@ -465,6 +465,7 @@ lib32-mesa-vdpau
 
 #Security
 rkhunter
+clamav
 
 #Other
 neofetch
