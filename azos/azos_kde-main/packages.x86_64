@@ -137,6 +137,7 @@ bluez
 bluez-utils
 cdrtools
 cmake
+cronie
 cryfs
 devtools
 dkms
