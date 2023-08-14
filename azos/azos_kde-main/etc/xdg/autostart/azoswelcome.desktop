@@ -1,6 +1,0 @@
-[Desktop Entry] 
-Type=Application 
-Name=AZOSWelcomeStarter
-Comment=Checks if AZOS has already been started before and if it hasn't then it starts it.
-Exec=sudo /usr/local/bin/azoswelcomestart.sh 
-Terminal=false
