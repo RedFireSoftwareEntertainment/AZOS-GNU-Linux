@@ -14,7 +14,7 @@ fi
 
 # Startup Commands
 
-systemctl start esystemctl start example.service 
+systemctl start esystemctl start clamav-daemon.service
 freshclam 
 clamscan --recursive --infected /home/$USER 
 
