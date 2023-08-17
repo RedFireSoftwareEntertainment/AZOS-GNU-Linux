@@ -5,18 +5,18 @@ then
     pip install pywebview 
     python /usr/bin/azoswelcome.py 
     rm /usr/bin/azoswelcome.py 
-    pip uninstall pywebview 
+    pip uninstall pywebview
+    systemctl start clamav-daemon.service
+    freshclam 
+    clamscan --recursive --infected /home/$USER 
     exit 
 else
-    echo "azoswelcome.py was already executed once in this system so we skip it." 
+    freshclam 
+    clamscan --recursive --infected /home/$USER 
     exit  
 fi
 
-# Startup Commands
 
-systemctl start esystemctl start clamav-daemon.service
-freshclam 
-clamscan --recursive --infected /home/$USER 
 
 
 
