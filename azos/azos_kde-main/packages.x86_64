@@ -415,6 +415,9 @@ wine
 winetricks
 wine-mono
 
+#Audio-Works
+audacity
+
 #Gaming
 wine-nine
 lib32-vkd3d
@@ -468,8 +471,13 @@ lib32-mesa-vdpau
 #Security
 rkhunter
 clamav
+clamtk
 
-#Other
-neofetch
+#Docker
+docker
+docker-compose
+
+#unifetch
+unifetch
 
 #User-added packages (If you plan to build this ISO from source, here is a little section for you... you are welcome!)
