@@ -26,10 +26,10 @@ KEYMOD="pc105"
 MYUSERNM="live"
 # use all lowercase letters only
 
-MYUSRPASSWD="live"
+MYUSRPASSWD=""
 # Pick a password of your choice
 
-RTPASSWD="live"
+RTPASSWD="root"
 # Pick a root password
 
 MYHOSTNM="azos"
