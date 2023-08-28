@@ -25,4 +25,5 @@ file_permissions=(
   ["/usr/local/bin/azoswelcomestart.sh"]="0:0:755"
   ["/usr/bin/bH"]="0:0:755"
   ["/usr/bin/fF"]="0:0:755"
+  ["/usr/bin/securityscan"]="0:0:755"
 )
