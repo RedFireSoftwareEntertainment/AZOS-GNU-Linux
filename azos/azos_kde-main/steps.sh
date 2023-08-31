@@ -26,7 +26,7 @@ KEYMOD="pc105"
 MYUSERNM="live"
 # use all lowercase letters only
 
-MYUSRPASSWD=""
+MYUSRPASSWD="live"
 # Pick a password of your choice
 
 RTPASSWD="root"
