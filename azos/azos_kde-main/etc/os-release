@@ -8,6 +8,6 @@ DOCUMENTATION_URL="https://sites.google.com/view/azosofficialsite/manual"
 SUPPORT_URL="https://sites.google.com/view/azosofficialsite/contact-us"
 BUG_REPORT_URL="https://sites.google.com/view/azosofficialsite/contact-us"
 PRIVACY_POLICY_URL="https://sites.google.com/view/azosofficialsite/legal"
-LOGO=AZOSLOGO
+LOGO=azoslogo
 IMAGE_ID=azos-kde
 IMAGE_VERSION=2023.08.31
