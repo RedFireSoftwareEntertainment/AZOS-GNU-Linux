@@ -40,7 +40,7 @@ Presentation
 
         Image {
             id: background1
-            source: "slide1.png"
+            source: "wallpaper.png"
             width: parent.width; height: parent.height          
             horizontalAlignment: Image.AlignCenter
     		verticalAlignment: Image.AlignTop
@@ -67,7 +67,7 @@ Presentation
 
         Image {
             id: background2
-            source: "slide1.png"
+            source: "wallpaper.png"
             width: parent.width; height: parent.height          
             horizontalAlignment: Image.AlignCenter
     		verticalAlignment: Image.AlignTop
@@ -95,7 +95,7 @@ Presentation
 
         Image {
             id: background3
-            source: "slide1.png"
+            source: "wallpaper.png"
             width: parent.width; height: parent.height          
             horizontalAlignment: Image.AlignCenter
     		verticalAlignment: Image.AlignTop
@@ -122,7 +122,7 @@ Presentation
 
         Image {
             id: background4
-            source: "slide1.png"
+            source: "wallpaper.png"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
     		verticalAlignment: Image.AlignTop
