@@ -1,4 +1,4 @@
-![AZOSLOGO](https://github.com/RedFireSoftwareEntertainment/AZOS-GNU-Linux/assets/98542488/5d05d7cd-22bb-4110-b638-f640515d7bd5) 
+![newlogo](https://github.com/RedFireSoftwareEntertainment/AZOS-GNU-Linux/assets/98542488/09158202-4d60-48a4-8c00-00c1cadc76da)
 
 [**OFFICIAL SITE**](https://sites.google.com/view/azosofficialsite/home)
 
