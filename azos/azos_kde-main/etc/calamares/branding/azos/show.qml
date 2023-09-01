@@ -53,7 +53,7 @@ Presentation
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width *.020
                 color: 'white'
-                text: qsTr("<b>Welcome to AZOS!<br/>")
+                text: qsTr("<b>Welcome to AZOS GNU/Linux!<br/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
@@ -80,7 +80,7 @@ Presentation
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width *.020
                 color: 'white'
-                text: qsTr("<b>AZOS is 101% compatible with Arch Linux repositories and Docuemntation!<br/>")
+                text: qsTr("<b>AZOS GNU/Linux is 101% compatible with Arch Linux repositories and Docuemntation!<br/>")
                 
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
@@ -108,7 +108,7 @@ Presentation
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width *.020
                 color: 'white'
-                text: qsTr("<b>AZOS has expansive software compatibillity with flatpaks, appimages and Windows App support!<br/>")
+                text: qsTr("<b>AZOS GNU/Linux has expansive software compatibillity with flatpaks, appimages and Windows App support!<br/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
@@ -135,7 +135,7 @@ Presentation
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width *.020
                 color: 'white'
-                text: qsTr("<b>Thank you for trying AZOS! We hope you enjoy it!<br/>")
+                text: qsTr("<b>Thank you for trying AZOS GNU/Linux! We hope you enjoy it!<br/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
