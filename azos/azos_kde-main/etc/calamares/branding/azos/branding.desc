@@ -123,12 +123,12 @@ navigation: widget
 # are set to "true" (they can also be overridden).
 strings:
     productName:         "@{NAME}"
-    shortProductName:    AZOS
-    version:             2022
-    shortVersion:        2022
-    versionedName:       AZOS GNU/Linux
-    shortVersionedName:  AZOS GNU/Linux
-    bootloaderEntryName: AZOS
+    shortProductName:    AZOS GNU/Linux
+    version:             2023
+    shortVersion:        2023
+    versionedName:       AZOS GNU/Linux 2.0
+    shortVersionedName:  AZOS GNU/Linux 2.0
+    bootloaderEntryName: AZOS GNU/Linux
     productUrl:          https://sites.google.com/view/azosofficialsite/home
     supportUrl:          https://sites.google.com/view/azosofficialsite/contact-us
 #   knownIssuesUrl:      https://sites.google.com/view/azosofficialsite/manual
@@ -164,9 +164,9 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:     "banner.png"
-    productIcon:         "azosinstallicon.png"
-    productLogo:         "logo.png"
-    productWallpaper:    "wallpaper.jpg"
+    productIcon:         "azoslogo.png"
+    productLogo:         "azoslogo.png"
+    productWallpaper:    "wallpaper.png"
     productWelcome:      "languages.png"
 
 # Colors for text and background components.
