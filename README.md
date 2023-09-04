@@ -4,7 +4,7 @@
 
 ## **The AZOS GNU/Linux operating system, general purpose, based on Arch Linux.**
 
-AZOS is a GNU/Linux distribution, focused on providing a user friendly and secure environment and a great and fast workflow, achieved through the usage of the KDE Desktop. Our biggest goal is to make Linux an ideal platform for everyday users.
+AZOS is a GNU/Linux distribution, focused on providing a user friendly and secure environment and a great and fast workflow, achieved through the usage of the KDE Plasma Desktop. Our biggest goal is to make Linux an ideal platform for everyday users.
 
 ## AZOS GNU/Linux Features
  
