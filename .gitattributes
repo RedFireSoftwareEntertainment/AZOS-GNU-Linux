@@ -1,1 +1,2 @@
 *.qml linguist-detectable=false
+*.python linguist-detectable=false
