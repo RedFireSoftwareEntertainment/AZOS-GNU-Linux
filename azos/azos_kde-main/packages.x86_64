@@ -196,12 +196,6 @@ xz
 zstd
 
 # Filesystem
-grub-btrfs
-btrfs-progs 
- #btrfs-assistant - removed temporalily because: cause problems when building iso
-snapper
-btrbk
-btrfsmaintenance
 gvfs
 gvfs-afc
 gvfs-goa
@@ -340,7 +334,6 @@ k3b
 kamoso
 kate
 kalgebra
-kalendar
 kcalc
 kdeconnect
 kdevelop
