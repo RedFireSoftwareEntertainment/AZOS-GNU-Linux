@@ -2,7 +2,8 @@
 
 #Custom AZOS GNU/Linux command to scan for rootkits, backdoors and viruses with rkhunter and clamav
 
-freshclam 
+freshclam
+systemctl start clamav-daemon.service
 clamscan --recursive --infected /home/$USER
 rkhunter --check
 exit 
