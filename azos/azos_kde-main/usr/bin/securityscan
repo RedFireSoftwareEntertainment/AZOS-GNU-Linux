@@ -2,8 +2,34 @@
 
 #Custom AZOS GNU/Linux command to scan for rootkits, backdoors and viruses with rkhunter and clamav
 
+clear
+echo "Please stay patient! Do not close your terminal window!"
+echo "While this command runs, you can keep using your computer as usual"
+sleep 5
+clear
+echo "Will begin in 7 seconds"
+sleep 1
+clear
+echo "Will begin in 6 seconds"
+sleep 1
+clear
+echo "Will begin in 5 seconds"
+sleep 1
+clear
+echo "Will begin in 4 seconds"
+sleep 1
+clear
+echo "Will begin in 3 seconds"
+sleep 1
+clear
+echo "Will begin in 2 seconds"
+sleep 1
+clear
+echo "Will begin in 1 seconds"
+sleep 1
+clear
 sudo freshclam
 sudo systemctl start clamav-daemon.service
-sudo clamscan --recursive --infected /
+sudo clamscan --recursive --infected /home/$USER
 sudo rkhunter --check
 exit 
