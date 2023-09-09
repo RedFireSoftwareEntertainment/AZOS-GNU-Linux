@@ -6,8 +6,8 @@
 
 #Based on steps.sh by eznix, modified to suit AZOS GNU/Linux by Red Fire Software Entertainment
 
-#!LEGAL INFO ABOUT AZOS GNU/Linux DOES NOT APPLY HERE!
-#!THIS SOFTWARE IS UNDER THE TERMS OF EZNIX!
+#LEGAL INFO ABOUT AZOS GNU/Linux DOES NOT APPLY HERE!
+#THIS SOFTWARE IS UNDER THE TERMS OF EZNIX!
 
 # ----------------------------------------
 # Define Variables
