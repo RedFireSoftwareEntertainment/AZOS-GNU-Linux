@@ -6,6 +6,8 @@
 
 AZOS is a GNU/Linux distribution, focused on providing a user friendly and secure environment and a great and fast workflow, achieved through the usage of the KDE Plasma Desktop. Our biggest goal is to make Linux an ideal platform for everyday users.
 
+Originally based on Ezarcher, although we have really differentiated our iso from the original one. Consider supporting [eznix](https://www.youtube.com/@eznix) if you like AZOS GNU/Linux, as his ezarcher iso's laid the foundation of AZOS GNU/Linux as we know it today.
+
 ## AZOS GNU/Linux Features
  
 

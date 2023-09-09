@@ -1,0 +1,52 @@
+#!/bin/bash
+
+# Licenced under the GNU GPL 3.0
+# Part of AZOS GNU/Linux and all legal information from this legal page apply here: https://sites.google.com/view/azosofficialsite/legal
+
+# fastFlash is an extremely lightweight, user-friendly and customizable .iso file flasher that is designed to be simple and easy to use.
+
+# If you have a better name, open an issue or something XD
+
+help(){
+  echo ""
+  echo "###################################################################################################################################################################" 
+  echo "# Welcome to fastFlash, the lightweight and customizable .iso file flasher by Red Fire Software Entertainment for AZOS GNU/Linux and other Arch-Based distros.    #"
+  echo "###################################################################################################################################################################"
+  echo ""
+  echo "Syntax:bH [action] ([isofile]) ([drive]) ([bssize])"
+  echo ""
+  echo "Actions:"
+  echo "               -f | flashes a .iso file. Specify your file or the directory and the file" 
+  echo "                  | in the place of ([isofile]) and the drive in place of ([drive]). ex. /dev/sdc (where sdc is replaced with your drive name)" 
+  echo "               -c | lists all of your drives, don't specify anything after." 
+  echo "               -h | shows this, don't specify anything after."
+  echo ""
+  echo "Thank you for using fF! Many new features coming so stay tuned!"
+  echo ""
+}
+
+flash(){
+  clear
+  echo "WARNING! THE PROGRAM WILL ASK FOR SUPER USER PERMISSION IN ORDER TO WRITE TO THE SELECTED DRIVE! ALL DATA WILL BE OVERWRITED! PLEASE BACKUP BEFORE PROCEEDING!"
+  su
+  dd if=$1 of=$2 bs=100M status=progress
+}
+
+list(){  
+  echo "Running lsblk..."
+  lsblk
+}
+
+if [ "$1" == "-h" ] || [ "$#" -eq  1 ]
+then
+  help
+if [ "$1" == "-c" ] || [ "$#" -eq  1 ]
+then
+  list
+elif [ "$1" == "-f" ] || [ "$#" -eq  3 ]
+then
+  flash "$2" "$3"
+else
+  echo "fastFlash: Invalid Syntax"
+fi
+

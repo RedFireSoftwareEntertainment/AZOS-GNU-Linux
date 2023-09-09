@@ -427,6 +427,7 @@ flatpak
 libreoffice-still
 
 #Python Related
+python
 tk
 webkit2gtk
 

@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Licenced under the GNU GPL 3.0
+# Part of AZOS GNU/Linux and all legal information from this legal page apply here: https://sites.google.com/view/azosofficialsite/legal
+
 #Custom AZOS GNU/Linux command to scan for rootkits, backdoors and viruses with rkhunter and clamav
 
 clear
