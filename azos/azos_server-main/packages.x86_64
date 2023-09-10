@@ -47,8 +47,8 @@ kitty-terminfo
 less
 libfido2
 libusb-compat
-linux
-linux-headers
+linux-lts
+linux-lts-headers
 linux-atm
 linux-firmware
 linux-firmware-bnx2x
