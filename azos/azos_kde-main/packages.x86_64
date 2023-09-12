@@ -400,13 +400,13 @@ calamares
 ckbcomp
 mkinitcpio-openswap
 
-#Additional AZOS Desktop modifications
-plank
-
 #Windows App Support
 wine
 winetricks
 wine-mono
+
+#Recording
+obs-studio
 
 #Audio-Works
 audacity
