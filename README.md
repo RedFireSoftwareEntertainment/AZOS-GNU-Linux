@@ -10,7 +10,6 @@ Originally based on Ezarcher, although we have really differentiated our iso fro
 
 ## AZOS GNU/Linux Features
  
-
  1. Low resource usage.
  2. Familiar and snappy workflow
  3. User-friendly and intuitive interface. (KDE Plasma Desktop)
@@ -23,9 +22,17 @@ Originally based on Ezarcher, although we have really differentiated our iso fro
  10. ClamAV and rkhunter integration for enhanced security.
  11. "Just works"
 
+## AZOS GNU/Linux Server
+
+We have created a flavor of AZOS GNU/Linux, streamlined and optimized for datacenters and servers.
+
+1. This flavor is faster and lighter than stock AZOS GNU/Linux
+2. Server Maintenance Tool for easier maintenance of AZOS GNU/Linux's base, Arch Linux
+3. All security features of stock AZOS GNU/Linux
+4. We have replaced the stock Linux kernel with the Linux LTS kernel, to make the system more stable and reduce the need of kernel updates.
+
 ## Website
 Find AZOS GNU/Linux and more info about it [here.](https://sites.google.com/view/azosofficialsite/home)
- 
  
 ## Our Goals
 
