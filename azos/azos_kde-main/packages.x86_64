@@ -462,6 +462,9 @@ lib32-libva-mesa-driver
 mesa-vdpau
 lib32-mesa-vdpau
 
+#Scheduler
+system76-scheduler
+
 #Security
 rkhunter
 clamav
