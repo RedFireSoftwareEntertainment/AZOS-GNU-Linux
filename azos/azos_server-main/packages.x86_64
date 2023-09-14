@@ -312,6 +312,9 @@ python
 #flatpak
 flatpak
 
+#Scheduler
+system76-scheduler
+
 #Security
 rkhunter
 clamav
