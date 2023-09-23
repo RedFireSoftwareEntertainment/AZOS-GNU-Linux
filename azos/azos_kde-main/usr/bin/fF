@@ -13,12 +13,12 @@ help(){
   echo "# Welcome to fastFlash, the lightweight and customizable .iso file flasher by Red Fire Software Entertainment for AZOS GNU/Linux and other Arch-Based distros.    #"
   echo "###################################################################################################################################################################"
   echo ""
-  echo "Syntax:bH [action] ([isofile]) ([drive]) ([bssize])"
+  echo "Syntax:bH [action] ([isofile]) ([drive])"
   echo ""
   echo "Actions:"
   echo "               -f | flashes a .iso file. Specify your file or the directory and the file" 
   echo "                  | in the place of ([isofile]) and the drive in place of ([drive]). ex. /dev/sdc (where sdc is replaced with your drive name)" 
-  echo "               -c | lists all of your drives, don't specify anything after." 
+  echo "               -l | lists all of your drives, don't specify anything after." 
   echo "               -h | shows this, don't specify anything after."
   echo ""
   echo "Thank you for using fF! Many new features coming so stay tuned!"
@@ -28,6 +28,7 @@ help(){
 flash(){
   clear
   echo "WARNING! THE PROGRAM WILL ASK FOR SUPER USER PERMISSION IN ORDER TO WRITE TO THE SELECTED DRIVE! ALL DATA WILL BE OVERWRITED! PLEASE BACKUP BEFORE PROCEEDING!"
+  echo "$1 will be flashed to $2"
   su
   dd if=$1 of=$2 bs=100M status=progress
 }
@@ -37,16 +38,15 @@ list(){
   lsblk
 }
 
-if [ "$1" == "-h" ] || [ "$#" -eq  1 ]
+if [ "$1" == "-h" ] && [ "$#" -eq  1 ]
 then
   help
-if [ "$1" == "-c" ] || [ "$#" -eq  1 ]
+elif [ "$1" == "-l" ] && [ "$#" -eq  1 ]
 then
   list
-elif [ "$1" == "-f" ] || [ "$#" -eq  3 ]
+elif [ "$1" == "-f" ] && [ "$#" -eq  3 ]
 then
   flash "$2" "$3"
 else
   echo "fastFlash: Invalid Syntax"
 fi
-
