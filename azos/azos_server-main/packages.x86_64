@@ -208,7 +208,6 @@ alsa-lib
 alsa-plugins
 alsa-firmware
 alsa-utils
-cdrdao
 dvdauthor
 faac
 faad2
