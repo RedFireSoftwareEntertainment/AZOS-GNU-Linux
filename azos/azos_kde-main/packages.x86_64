@@ -4,8 +4,6 @@
 
 alsa-utils
 amd-ucode
-arch-install-scripts
-archinstall
 b43-fwcutter
 base
 bind
@@ -56,6 +54,7 @@ linux-firmware-marvell
 linux-firmware-qcom
 linux-firmware-qlogic
 linux-firmware-whence
+mkinitcpio-firmware
 livecd-sounds
 lsscsi
 lvm2
@@ -231,7 +230,12 @@ libopenraw
 mencoder
 mjpegtools
 poppler-glib
-
+sox
+transcode
+x265
+x264
+xvidcore
+yt-dlp
 pipewire
 pipewire-alsa
 pipewire-docs
@@ -241,22 +245,7 @@ alsa-card-profiles
 gst-plugin-pipewire
 wireplumber
 
-#If you are building this ISO from source and you prefer to use pulseaudio then uncomment the pulseaudio related section below and comment the pipewire section above
-#pulseaudio
-#pulseaudio-alsa
-#pulseaudio-bluetooth
-#pulseaudio-equalizer
-#pulseaudio-jack
-
-sox
-transcode
-x265
-x264
-xvidcore
-yt-dlp
-
-#XORG
-mesa
+# XORG
 xorg
 xorg-server
 xorg-apps
@@ -264,7 +253,7 @@ xorg-drivers
 xorg-xkill
 xorg-xinit
 
-#Networking
+# Networking
 curl
 dnsutils
 ethtool
@@ -286,7 +275,7 @@ r8168
 wget
 whois
 
-#Fonts
+# Fonts
 ttf-dejavu
 ttf-liberation
 ttf-bitstream-vera
@@ -300,7 +289,7 @@ opendesktop-fonts
 ttf-opensans
 freetype2
 
-#Printing Support
+# Printing Support
 cups
 cups-pdf
 cups-filters
@@ -317,7 +306,7 @@ python-reportlab
 simple-scan
 system-config-printer
 
-#KDE
+# KDE
 accountsservice
 aisleriot
 appstream-qt
@@ -368,7 +357,7 @@ xdg-desktop-portal-kde
 sddm
 sddm-kcm
 
-#Calamares dependencies
+# Calamares dependencies
 boost-libs
 ckbcomp
 efibootmgr
@@ -396,43 +385,52 @@ git
 qt5-tools
 qt5-translations
 
-#Calamares
-calamares
+# Calamares
+calamares-git
 ckbcomp
 mkinitcpio-openswap
 
-#Windows App Support
+# Windows App Support
 wine
 winetricks
 wine-mono
 
-#Recording
+# Recording
 obs-studio
 
-#Audio-Works
+# Audio-Works
 audacity
 
-#Gaming
+# Gaming
 wine-nine
 lib32-vkd3d
 vkd3d
 lutris
 
-#Graphic Design
+# vk-capture
+lib32-obs-vkcapture-git
+obs-vkcapture-git
+
+# Xbox Controller Support
+xpadneo-dkms
+xone-dkms
+xone-dongle-firmware
+
+# Graphic Design
 krita
 
-#flatpak
+# Flatpak
 flatpak
 
-#Office
+# Office
 libreoffice-still
 
-#Python Related
+# Python Related
 python
 tk
 webkit2gtk
 
-#Drivers and Vulkan
+# Drivers and Vulkan
 vulkan-icd-loader
 lib32-vulkan-icd-loader
 primus_vk
@@ -450,25 +448,16 @@ vulkan-headers
 vulkan-validation-layers
 vulkan-tools
 mesa
-mesa-amber
 lib32-mesa
-lib32-mesa-amber
-xf86-video-intel
-nvidia
-nvidia-open
-lib32-nvidia-utils
-xf86-video-amdgpu
 libva-mesa-driver
 lib32-libva-mesa-driver
 mesa-vdpau
 lib32-mesa-vdpau
 
-#Scheduler
+# Scheduler
 system76-scheduler
 
-#Security
+# Security
 rkhunter
 clamav
 clamtk
-
-#User-added packages (If you plan to build this ISO from source, here is a little section for you... you are welcome!)
