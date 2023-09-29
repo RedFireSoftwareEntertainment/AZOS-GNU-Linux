@@ -18,7 +18,7 @@ Originally based on Ezarcher, although we have really differentiated our iso fro
  6. Gaming Tweaks and Optimizations.
  7. Includes vulkan drivers out of the box.
  8. Comes with productivity and work software so you can start working right after installation.
- 9. Dedicated terminal tool-set for power users [(RedKit)](https://github.com/RedFireSoftwareEntertainment/RedKit).
+ 9. Dedicated terminal tool-set for power users ([RedKit](https://github.com/RedFireSoftwareEntertainment/RedKit)).
  10. Powerful backup tool for ease of transfering files from OS to GNU/Linux OS's made by Red Fire Software Entertainment ([OpenLOB](https://github.com/RedFireSoftwareEntertainment/OpenLOB)).
  11. ClamAV and rkhunter integration for enhanced security.
  12. "Just works"
