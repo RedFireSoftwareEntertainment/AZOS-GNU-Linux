@@ -24,4 +24,5 @@ file_permissions=(
   ["/usr/bin/bH"]="0:0:755"
   ["/usr/bin/fF"]="0:0:755"
   ["/usr/bin/securityscan"]="0:0:755"
+  ["/usr/bin/openlob"]="0:0:755"
 )
