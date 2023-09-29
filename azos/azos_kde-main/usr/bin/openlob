@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# Licenced under the GNU GPL 3.0
+# Part of AZOS GNU/Linux and all legal information from this legal page apply here: https://sites.google.com/view/azosofficialsite/legal
+
+# Open Source, Customizable, Fast, Easy to use and Offline software to create backups of any directory supporting multiple Operating Systems, 
+# to make transfering your data from your old system to your new GNU/Linux installation faster and easier, done completely locally on your system.
+
+help(){
+  echo "Welcome to OpenLOB (Open Local Offline Backup)"
+  echo "(If you are on AZOS GNU/Linux 2.0, when asked to input password, input "root")"
+  echo ""
+  echo "Syntax:"
+  echo ""
+  echo "To display help use:"
+  echo "openlob or openlob -h"
+  echo ""
+  echo "To display drives connected to the computer:"
+  echo "openlob -l"
+  echo ""
+  echo "To start making a backup use:"
+  echo "openlob -b {dev/sdX} {filesystem} {/directory/to/back/up/from/the/disk}"
+  echo "(Where X = name of drive)"
+  echo ""
+}
+
+backup() {
+  cd /
+  sudo mkdir openlobdisk
+  sudo mount -t $2 $1 openlobdisk
+  sudo tar -zcvf backup.tar.gz /openlobdisk/$3
+  cd /openlobdisk/$3
+  sudo cp backup.tar.gz 
+}
+
+list() {
+  echo "Running lsblk..."
+  lsblk
+}
+
+if [ "$1" == "-h" ] && [ "$#" -eq  1 ]
+then
+  help
+elif [ "$1" == "-b" ] && [ "$#" -eq  4 ]
+then
+  backup "$2" "$3" "$4"
+elif [ "$1" == "-l" ] && [ "$#" -eq  1 ]
+then
+  list
+elif [ "$#" -eq  0 ]
+then
+  help
+else
+  echo "openlob: Invalid Syntax"
+fi
