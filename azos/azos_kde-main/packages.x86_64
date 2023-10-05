@@ -346,6 +346,8 @@ spectacle
 sonnet
 sweeper
 xdg-desktop-portal-kde
+gtk4
+webkit2gtk
 
 # Display Manager
 sddm
