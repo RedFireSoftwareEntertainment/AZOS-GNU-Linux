@@ -423,7 +423,6 @@ libreoffice-still
 # Python Related
 python
 tk
-webkit2gtk
 
 # Drivers and Vulkan
 vulkan-icd-loader
