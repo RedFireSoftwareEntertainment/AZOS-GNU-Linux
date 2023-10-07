@@ -34,19 +34,6 @@ We have created a flavor of AZOS GNU/Linux, streamlined and optimized for datace
 
 ## Website
 Find AZOS GNU/Linux and more info about it [here.](https://sites.google.com/view/azosofficialsite/home)
- 
-## Our Goals
-
- 
-
- - [x] Fully open-source the project.
- - [x] First Release
- - [ ] Add Snaps
- - [ ] ARM processor supprort.
- - [ ] "Touch" version
- - [ ] Reduce .iso file size by making an installer over internet.
- - [ ] A dedicated AZOS Desktop Environment.
- - [x] Make our own custom Software Suite for AZOS GNU/Linux.
 
 ## Commiting to the project
 We accept pull-requests, so you can add bug fixes and new features, and secure a place on the following list:
