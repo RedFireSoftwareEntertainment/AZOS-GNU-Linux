@@ -55,6 +55,8 @@ If you want to compile this code from source, you will have to run `steps.sh` by
 
 For legal infortmation visit our [legal page.](https://sites.google.com/view/azosofficialsite/legal)
 
+**[For Contributing guidelines and Code of Conduct](https://github.com/RedFireSoftwareEntertainment/AZOS-GNU-Linux/blob/main/CONTRIBUTING.md)**
+
 **Copyright© Red Fire Software Entertaiment Group 2019-2023**
 
 **Copyright© AZOS GNU/Linux Contributors 2023-2023** 
