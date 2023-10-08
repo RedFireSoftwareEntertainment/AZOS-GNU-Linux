@@ -4,7 +4,7 @@
 # Contributing Guidelines
 
 When contributing to this repository, and you want to make a major change, please first discuss 
-the change you wish to make via issue, our discord server(https://discord.gg/9XUSVa8QsZ), or any 
+the change you wish to make via issue, our discord server(https://discord.gg/sAEARzJTvm), or any 
 other method with the owners of this repository before making a change. 
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
@@ -82,7 +82,7 @@ further defined and clarified by project maintainers.
 ### Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at https://discord.gg/9XUSVa8QsZ in the
+reported by contacting the project team at https://discord.gg/sAEARzJTvm in the
 #report channel under the feedback category. All complaints will be reviewed and 
 investigated and will result in a response that is deemed necessary and appropriate 
 to the circumstances. The project team is obligated to maintain confidentiality with 
