@@ -324,9 +324,9 @@ kamoso
 kate
 kalgebra
 kcalc
+okular
 kdeconnect
 kdevelop
-kdenlive
 kdialog
 kinit
 knotes
@@ -344,6 +344,7 @@ plasma-systemmonitor
 print-manager
 qbittorrent
 spectacle
+haruna
 sonnet
 sweeper
 xdg-desktop-portal-kde
@@ -391,12 +392,6 @@ wine
 winetricks
 wine-mono
 
-# Recording
-obs-studio
-
-# Audio-Works
-audacity
-
 # Gaming
 wine-nine
 lib32-vkd3d
@@ -412,9 +407,6 @@ xpadneo-dkms
 xone-dkms
 xone-dongle-firmware
 
-# Graphic Design
-krita
-
 # Flatpak
 flatpak
 
@@ -424,6 +416,12 @@ libreoffice-still
 # Python Related
 python
 tk
+
+# Extra "Bloat" :D (put it all here to remove more easily if needed c:)
+obs-studio
+krita
+kdenlive
+audacity
 
 # Drivers and Vulkan
 vulkan-icd-loader
