@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=AZOS GNU/Linux Hub
+Comment=Quick Access to the web
+Path=/usr/local/bin
+Exec=azosgnulinuxhubrunner
+Icon=/usr/share/icons/default/azoslogo.png
+Terminal=false
+Categories=Network;WebBrowser;
