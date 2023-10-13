@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-Name=AZOS GNU/Linux Hub
+Name=AZOS GNU/Linux WebPivot
 Comment=Quick Access to the web
 Path=/usr/local/bin
 Exec=azosgnulinuxhubrunner
