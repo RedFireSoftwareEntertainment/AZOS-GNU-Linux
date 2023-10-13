@@ -26,4 +26,5 @@ file_permissions=(
   ["/usr/bin/securityscan"]="0:0:755"
   ["/usr/bin/openlob"]="0:0:755"
   ["/usr/local/bin/azosgnulinuxhub.py"]="0:0:755"
+  ["/usr/local/bin/azosgnulinuxhubrunner"]="0:0:755"
 )
