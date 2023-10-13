@@ -36,7 +36,7 @@ def do_nothing():
 
 if __name__ == '__main__':
     window = webview.create_window(
-        'AZOS GNU/Linux Hub', homepage, frameless=True, easy_drag=False, on_top=True, width=450, height=screenheight, x=xpos, y=100
+        'AZOS GNU/Linux Web Pivot', homepage, frameless=True, easy_drag=False, on_top=True, width=450, height=screenheight, x=xpos, y=100
     )
 
     menu_items = [
