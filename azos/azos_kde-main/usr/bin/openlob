@@ -30,7 +30,7 @@ backup() {
   sudo mount -t $2 $1 openlobdisk
   sudo tar -zcvf backup.tar.gz /openlobdisk/$3
   cd /openlobdisk/$3
-  sudo cp backup.tar.gz 
+  sudo cp backup.tar.gz /home/$USER/Documents
 }
 
 list() {
