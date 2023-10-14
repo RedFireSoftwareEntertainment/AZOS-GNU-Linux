@@ -4,7 +4,7 @@
 iso_name="azos-2-kde"
 iso_label="AZOS_2_LINUX_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="Red Fire Software Entertainment"
-iso_application="AZOS DVD"
+iso_application="AZOS GNU/Linux DVD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="arch"
 buildmodes=('iso')
