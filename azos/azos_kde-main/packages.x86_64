@@ -397,7 +397,8 @@ lib32-vkd3d
 vkd3d
 lutris
 
-# vk-capture
+# OBS
+obs-studio
 lib32-obs-vkcapture-git
 obs-vkcapture-git
 
@@ -415,12 +416,6 @@ libreoffice-still
 # Python Related
 python
 tk
-
-# Extra "Bloat" :D (put it all here to remove more easily if needed c:)
-obs-studio
-krita
-kdenlive
-audacity
 
 # Drivers and Vulkan
 vulkan-icd-loader
