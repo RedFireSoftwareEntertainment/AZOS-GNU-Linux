@@ -413,7 +413,11 @@ flatpak
 # Office
 libreoffice-still
 
-# Python Related
+# C
+gcc
+glibc
+
+# Python
 python
 tk
 
