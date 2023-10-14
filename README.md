@@ -11,7 +11,7 @@ Originally based on Ezarcher, although we have really differentiated our iso fro
 ## AZOS GNU/Linux Features
  
  1. Low resource usage.
- 2. Familiar and snappy workflow
+ 2. Familiar workflow
  3. User-friendly and intuitive interface. (KDE Plasma Desktop)
  4. Access to popular software repositories such as the Arch Linux repository, or Flatpak. 
  5. Fully compatible with Arch Linux software and documentation.
@@ -19,18 +19,9 @@ Originally based on Ezarcher, although we have really differentiated our iso fro
  7. Includes vulkan drivers out of the box.
  8. Comes with productivity and work software so you can start working right after installation.
  9. Dedicated terminal tool-set for power users ([RedKit](https://github.com/RedFireSoftwareEntertainment/RedKit)).
- 10. Powerful backup tool for ease of transfering files from OS to GNU/Linux OS's made by Red Fire Software Entertainment ([OpenLOB](https://github.com/RedFireSoftwareEntertainment/OpenLOB)).
- 11. ClamAV and rkhunter integration for enhanced security.
+ 10. Powerful backup tool for ease of transfering files from any OS to GNU/Linux OS's made by Red Fire Software Entertainment ([OpenLOB](https://github.com/RedFireSoftwareEntertainment/OpenLOB)).
+ 11. ClamAV and rkhunter integration for enhanced security. (Under the hood, there is also AppArmor)
  12. "Just works"
-
-## AZOS GNU/Linux Server
-
-We have created a flavor of AZOS GNU/Linux, streamlined and optimized for datacenters and servers.
-
-1. This flavor is faster and lighter than stock AZOS GNU/Linux
-2. Server Maintenance Tool for easier maintenance of AZOS GNU/Linux's base, Arch Linux
-3. All security features of stock AZOS GNU/Linux
-4. We have replaced the stock Linux kernel with the Linux LTS kernel, to make the system more stable and reduce the need of kernel updates.
 
 ## Website
 Find AZOS GNU/Linux and more info about it [here.](https://sites.google.com/view/azosofficialsite/home)
