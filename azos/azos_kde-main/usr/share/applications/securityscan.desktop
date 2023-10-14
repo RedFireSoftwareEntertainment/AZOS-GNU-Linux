@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Security Scan
+Comment=User-Friendly way of accessing the securityscan command.
+Exec=bash -c 'securityscan;$SHELL'
+Icon=security-high-symbolic
+Terminal=true
+Type=Application
+Categories=Utility;
