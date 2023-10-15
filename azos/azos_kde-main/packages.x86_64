@@ -250,6 +250,7 @@ xorg-apps
 xorg-drivers
 xorg-xkill
 xorg-xinit
+xorg-xrandr
 
 # Networking
 curl
