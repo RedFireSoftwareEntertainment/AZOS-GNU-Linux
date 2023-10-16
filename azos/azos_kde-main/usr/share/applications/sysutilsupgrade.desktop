@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Update System and Utilities
+Comment=User-Friendly way of accessing the update-sysutils command.
+Exec=bash -c 'update-sysutils;$SHELL'
+Icon=update-none
+Terminal=true
+Type=Application
+Categories=Utility;
