@@ -444,7 +444,7 @@ lib32-nvidia-utils
 vulkan-radeon
 lib32-vulkan-radeon
 amdvlk
-or lib32-amdvlk
+lib32-amdvlk
 
 # Scheduler
 system76-scheduler
