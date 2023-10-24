@@ -59,6 +59,11 @@ prepreqs () {
 pacman -S --needed --noconfirm archiso mkinitcpio-archiso
 }
 
+# Make azrepo
+makeazrepo () {
+sudo bash etc/azrepo/x86_64/makerepo.sh
+}
+
 # Copy azdir to working directory
 cpazdir () {
 cp -r /usr/share/archiso/configs/releng/ ./azdir
@@ -215,6 +220,7 @@ mkarchiso -v -w ./work -o ./out ./azdir
 handlerror
 prepreqs
 cleanup
+makeazrepo
 cpazdir
 addnmlinks
 rmunitsd
