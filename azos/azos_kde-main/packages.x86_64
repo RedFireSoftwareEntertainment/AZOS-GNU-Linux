@@ -163,7 +163,7 @@ libisofs
 libisoburn
 linux-headers
 logrotate
-lsb-release
+az-lsb-release
 openssl
 os-prober
 p7zip
@@ -383,7 +383,7 @@ qt5-tools
 qt5-translations
 
 # Calamares
-calamares-git
+calamares
 ckbcomp
 mkinitcpio-openswap
 
