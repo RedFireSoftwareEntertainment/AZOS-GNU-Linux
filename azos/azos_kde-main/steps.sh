@@ -61,7 +61,8 @@ pacman -S --needed --noconfirm archiso mkinitcpio-archiso
 
 # Make azrepo
 makeazrepo () {
-sudo bash etc/azrepo/x86_64/makerepo.sh
+chmod +x etc/azrepo/x86_64/makerepo.sh
+etc/azrepo/x86_64/makerepo.sh
 }
 
 # Copy azdir to working directory
