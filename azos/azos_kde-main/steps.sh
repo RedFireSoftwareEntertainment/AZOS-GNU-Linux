@@ -35,6 +35,8 @@ RTPASSWD="root"
 MYHOSTNM="azos"
 # Pick a hostname for the machine
 
+CURDIR=$(pwd)
+
 # ----------------------------------------
 # Functions
 # ----------------------------------------
@@ -46,8 +48,12 @@ set -uo pipefail
 trap 's=$?; echo "$0: Error on line "$LINENO": $BASH_COMMAND"; exit $s' ERR
 }
 
-# Clean up working directories
+# Clean up
 cleanup () {
+rm etc/azrepo/x86_64/azrepo.db
+rm etc/azrepo/x86_64/azrepo.db.tar.gz
+rm etc/azrepo/x86_64/azrepo.files
+rm etc/azrepo/x86_64/azrepo.files.tar.gz
 [[ -d ./azdir ]] && rm -r ./azdir
 [[ -d ./work ]] && rm -r ./work
 [[ -d ./out ]] && mv ./out ../
@@ -62,7 +68,9 @@ pacman -S --needed --noconfirm archiso mkinitcpio-archiso
 # Make azrepo
 makeazrepo () {
 chmod +x etc/azrepo/x86_64/makerepo.sh
-etc/azrepo/x86_64/makerepo.sh
+cd etc/azrepo/x86_64/
+./makerepo.sh
+cd "$CURDIR"
 }
 
 # Copy azdir to working directory
