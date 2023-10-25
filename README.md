@@ -33,6 +33,8 @@ We accept pull-requests, so you can add bug fixes and new features, and secure a
 
  - Red Fire Software Entertainment.
 
+To properly commit read [this](https://github.com/RedFireSoftwareEntertainment/AZOS-GNU-Linux/blob/main/CONTRIBUTING.md)
+
 ## **This Repo**
 
 **Here resides the .iso file source code that we build.**
