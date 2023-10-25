@@ -13,4 +13,5 @@ cd etc/azrepo/x86_64/
 cd "$CURDIR"
 }
 
+makeazrepo
 sudo ./steps.sh
