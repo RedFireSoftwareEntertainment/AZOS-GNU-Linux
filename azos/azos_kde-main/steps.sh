@@ -50,6 +50,7 @@ trap 's=$?; echo "$0: Error on line "$LINENO": $BASH_COMMAND"; exit $s' ERR
 
 # Clean up
 cleanup () {
+rm -rf /etc/azrepo
 [[ -d ./azdir ]] && rm -r ./azdir
 [[ -d ./work ]] && rm -r ./work
 [[ -d ./out ]] && mv ./out ../
