@@ -61,8 +61,9 @@ prepreqs () {
 pacman -S --needed --noconfirm archiso mkinitcpio-archiso
 }
 
-# Copy azdir to working directory
+# Copy azdir to working directory and azrepo to /etc
 cpazdir () {
+cp etc/azrepo /etc
 cp -r /usr/share/archiso/configs/releng/ ./azdir
 rm ./azdir/airootfs/etc/motd
 rm -r ./azdir/airootfs/etc/pacman.d
