@@ -50,10 +50,6 @@ trap 's=$?; echo "$0: Error on line "$LINENO": $BASH_COMMAND"; exit $s' ERR
 
 # Clean up
 cleanup () {
-rm etc/azrepo/x86_64/azrepo.db
-rm etc/azrepo/x86_64/azrepo.db.tar.gz
-rm etc/azrepo/x86_64/azrepo.files
-rm etc/azrepo/x86_64/azrepo.files.tar.gz
 [[ -d ./azdir ]] && rm -r ./azdir
 [[ -d ./work ]] && rm -r ./work
 [[ -d ./out ]] && mv ./out ../
@@ -63,14 +59,6 @@ sleep 2
 # Requirements and preparation
 prepreqs () {
 pacman -S --needed --noconfirm archiso mkinitcpio-archiso
-}
-
-# Make azrepo
-makeazrepo () {
-chmod +x etc/azrepo/x86_64/makerepo.sh
-cd etc/azrepo/x86_64/
-./makerepo.sh
-cd "$CURDIR"
 }
 
 # Copy azdir to working directory
@@ -229,7 +217,6 @@ mkarchiso -v -w ./work -o ./out ./azdir
 handlerror
 prepreqs
 cleanup
-makeazrepo
 cpazdir
 addnmlinks
 rmunitsd
