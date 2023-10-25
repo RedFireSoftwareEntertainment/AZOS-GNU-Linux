@@ -14,4 +14,5 @@ cd "$CURDIR"
 }
 
 makeazrepo
-sudo ./steps.sh
+sudo chmod +x steps.sh
+sudo bash steps.sh
