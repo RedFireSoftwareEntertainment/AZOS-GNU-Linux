@@ -35,13 +35,6 @@ We accept pull-requests, so you can add bug fixes and new features, and secure a
 
 To properly commit read [this](https://github.com/RedFireSoftwareEntertainment/AZOS-GNU-Linux/blob/main/CONTRIBUTING.md)
 
-## **This Repo**
-
-**Here resides the .iso file source code that we build.**
-
-If you want to compile this code from source, you will have to run `steps.sh` by EZNIX inside the source code.
-
-
 ## **Thank you for reading and supporting AZOS GNU/Linux!**
 
 For legal infortmation visit our [legal page.](https://sites.google.com/view/azosofficialsite/legal)
