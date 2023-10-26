@@ -50,7 +50,6 @@ trap 's=$?; echo "$0: Error on line "$LINENO": $BASH_COMMAND"; exit $s' ERR
 
 # Clean up
 cleanup () {
-rm -rf /etc/azrepo
 [[ -d ./azdir ]] && rm -r ./azdir
 [[ -d ./work ]] && rm -r ./work
 [[ -d ./out ]] && mv ./out ../
@@ -64,7 +63,6 @@ pacman -S --needed --noconfirm archiso mkinitcpio-archiso
 
 # Copy azdir to working directory and azrepo to /etc
 cpazdir () {
-cp -r etc/azrepo /etc
 cp -r /usr/share/archiso/configs/releng/ ./azdir
 rm ./azdir/airootfs/etc/motd
 rm -r ./azdir/airootfs/etc/pacman.d
