@@ -25,6 +25,7 @@ file_permissions=(
   ["/usr/bin/fF"]="0:0:755"
   ["/usr/bin/securityscan"]="0:0:755"
   ["/usr/bin/openlob"]="0:0:755"
+  ["/usr/bin/update-sysutils"]="0:0:755"
   ["/usr/local/bin/azosgnulinuxwp.py"]="0:0:755"
   ["/usr/local/bin/azosgnulinuxwprunner"]="0:0:755"
 )
