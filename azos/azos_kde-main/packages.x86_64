@@ -1,4 +1,4 @@
-#
+e#
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
 
@@ -319,6 +319,7 @@ breeze-icons
 discover
 dolphin
 elisa
+gnome-software
 gwenview
 k3b
 kamoso
