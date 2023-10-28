@@ -23,13 +23,13 @@ KEYMP="us"
 KEYMOD="pc105"
 # pc105 and pc104 are modern standards, all others need to be researched
 
-MYUSERNM="live"
+MYUSERNM="password-is-live"
 # use all lowercase letters only
 
-MYUSRPASSWD=""
+MYUSRPASSWD="live"
 # Pick a password of your choice
 
-RTPASSWD="root"
+RTPASSWD="live"
 # Pick a root password
 
 MYHOSTNM="azos"
