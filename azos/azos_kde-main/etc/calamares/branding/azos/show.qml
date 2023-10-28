@@ -25,14 +25,6 @@ Presentation
 {
     id: presentation
 
-    Timer {
-        id: advanceTimer
-        interval: 30000
-        running: true
-        repeat: true
-        onTriggered: presentation.goToNextSlide()
-    }
-
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
@@ -53,89 +45,7 @@ Presentation
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width *.020
                 color: 'white'
-                text: qsTr("<b>Welcome to AZOS GNU/Linux!<br/>")
-                wrapMode: Text.WordWrap
-                width: parent.width / 1.4
-                horizontalAlignment: Text.AlignHCenter
-            }
-        }
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-
-        Image {
-            id: background2
-            source: "wallpaper.png"
-            width: parent.width; height: parent.height          
-            horizontalAlignment: Image.AlignCenter
-    		verticalAlignment: Image.AlignTop
-
-            anchors.fill: parent
-
-            Text {
-                anchors.centerIn: parent
-                anchors.verticalCenterOffset: 163
-                anchors.horizontalCenterOffset: 0
-                font.pixelSize: parent.width *.020
-                color: 'white'
-                text: qsTr("<b>AZOS GNU/Linux is 101% compatible with Arch Linux repositories and Docuemntation!<br/>")
-                
-                wrapMode: Text.WordWrap
-                width: parent.width / 1.4
-                horizontalAlignment: Text.AlignHCenter
-            }
-        }
-    }
-
-	Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-
-        Image {
-            id: background3
-            source: "wallpaper.png"
-            width: parent.width; height: parent.height          
-            horizontalAlignment: Image.AlignCenter
-    		verticalAlignment: Image.AlignTop
-
-            anchors.fill: parent
-
-            Text {
-                anchors.centerIn: parent
-                anchors.verticalCenterOffset: 0
-                anchors.horizontalCenterOffset: 0
-                font.pixelSize: parent.width *.020
-                color: 'white'
-                text: qsTr("<b>AZOS GNU/Linux has expansive software compatibillity with flatpaks, appimages and Windows App support!<br/>")
-                wrapMode: Text.WordWrap
-                width: parent.width / 1.4
-                horizontalAlignment: Text.AlignHCenter
-            }
-        }
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-
-        Image {
-            id: background4
-            source: "wallpaper.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-    		verticalAlignment: Image.AlignTop
-    		
-            anchors.fill: parent
-
-            Text {
-                anchors.centerIn: parent
-                anchors.verticalCenterOffset: 165
-                anchors.horizontalCenterOffset: 0
-                font.pixelSize: parent.width *.020
-                color: 'white'
-                text: qsTr("<b>Thank you for trying AZOS GNU/Linux! We hope you enjoy it!<br/>")
+                text: qsTr("<b>Hang in there while AZOS GNU/Linux is installing!<br/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
