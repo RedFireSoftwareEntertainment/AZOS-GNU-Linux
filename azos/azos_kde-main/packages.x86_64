@@ -395,7 +395,6 @@ winetricks
 wine-mono
 
 # Gaming
-protonup-qt 
 wine-nine
 lib32-vkd3d
 vkd3d
