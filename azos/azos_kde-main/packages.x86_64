@@ -245,6 +245,7 @@ wireplumber
 
 # XORG
 xorg
+xterm
 xorg-server
 xorg-apps
 xorg-drivers
