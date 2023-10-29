@@ -8,7 +8,6 @@
 
 help(){
   echo "Welcome to OpenLOB (Open Local Offline Backup)"
-  echo "(If you are on AZOS GNU/Linux 2.0, when asked to input password, input "root")"
   echo ""
   echo "Syntax:"
   echo ""
