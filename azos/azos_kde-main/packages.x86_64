@@ -254,7 +254,8 @@ xorg-xkill
 xorg-xinit
 xorg-xrandr
 
-# Networking
+# Networking/Connectivity
+blueman
 curl
 dnsutils
 ethtool
