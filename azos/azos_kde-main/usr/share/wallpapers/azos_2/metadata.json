@@ -1,0 +1,16 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Red Fire Software Entertainment"
+            }
+        ],
+        "Id": "azos_2",
+        "License": "CC-BY-SA-4.0",
+        "Name": "Contrast"
+    },
+    "X-KDE-PlasmaImageWallpaper-AccentColor": {
+        "Dark": "#fadca2",
+        "Light": "#ccfffc"
+    }
+}
