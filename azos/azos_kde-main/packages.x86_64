@@ -452,6 +452,9 @@ lib32-amdvlk
 # Scheduler
 system76-scheduler
 
+#Powertop
+powertop
+
 # Security
 rkhunter
 clamav
