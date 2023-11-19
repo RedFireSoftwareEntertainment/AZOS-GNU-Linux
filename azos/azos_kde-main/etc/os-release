@@ -1,5 +1,5 @@
 NAME="AZOS GNU/Linux"
-PRETTY_NAME="AZOS GNU/Linux 2.0"
+PRETTY_NAME="AZOS GNU/Linux 2.0.1"
 ID=azos
 BUILD_ID=rolling
 ANSI_COLOR="38;2;23;147;209"
@@ -10,4 +10,4 @@ BUG_REPORT_URL="https://sites.google.com/view/azosofficialsite/contact-us"
 PRIVACY_POLICY_URL="https://sites.google.com/view/azosofficialsite/legal"
 LOGO=azoslogo
 IMAGE_ID=azos-kde
-IMAGE_VERSION=2023.11.4
+IMAGE_VERSION=2023.11.20
