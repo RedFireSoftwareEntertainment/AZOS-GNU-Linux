@@ -309,7 +309,7 @@ python-reportlab
 simple-scan
 system-config-printer
 
-# KDE
+# Desktop
 plasma
 accountsservice
 aisleriot
@@ -328,6 +328,9 @@ kamoso
 kate
 kalgebra
 gnome-calculator
+gnome-calendar
+gnome-contacts
+endeavour
 okular
 kdeconnect
 kdevelop
@@ -335,7 +338,6 @@ kdialog
 kinit
 knotes
 konsole
-kontact
 kolourpaint
 kwallet5
 kwalletmanager
