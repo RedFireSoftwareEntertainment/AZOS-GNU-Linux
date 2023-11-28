@@ -235,6 +235,7 @@ x265
 x264
 xvidcore
 yt-dlp
+vlc
 pipewire
 pipewire-alsa
 pipewire-docs
@@ -260,7 +261,7 @@ curl
 dnsutils
 ethtool
 firefox
-thunderbird
+thunderbirdf
 firewalld
 gnome-nettool
 iptables-nft
@@ -320,7 +321,6 @@ bluez-qt5
 breeze
 breeze-icons
 dolphin
-elisa
 gnome-software
 gwenview
 k3b
@@ -349,7 +349,6 @@ xdg-desktop-portal-kde
 plasma-systemmonitor
 print-manager
 spectacle
-haruna
 sonnet5
 sweeper
 xdg-desktop-portal-kde
