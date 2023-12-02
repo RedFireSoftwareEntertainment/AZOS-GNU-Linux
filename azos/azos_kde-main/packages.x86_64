@@ -261,7 +261,7 @@ curl
 dnsutils
 ethtool
 firefox
-thunderbirdf
+thunderbird
 firewalld
 gnome-nettool
 iptables-nft
