@@ -402,9 +402,6 @@ lib32-vkd3d
 vkd3d
 lutris
 
-# GRUB Theme
-breeze-grub
-
 # OBS
 obs-studio
 lib32-obs-vkcapture-git
