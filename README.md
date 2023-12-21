@@ -6,7 +6,7 @@
 
 AZOS is a GNU/Linux distribution, focused on providing a user friendly and secure environment and a great and fast workflow, achieved through the usage of the KDE Plasma Desktop. Our biggest goal is to make Linux an ideal platform for everyday users.
 
-Originally based on Ezarcher, although we have really differentiated our iso from the original one. Consider supporting [eznix](https://www.youtube.com/@eznix) if you like AZOS GNU/Linux, as his ezarcher iso's laid the foundation of AZOS GNU/Linux as we know it today.
+Originally based on [Ezarcher](https://sourceforge.net/projects/ezarch/), although we have really differentiated our iso from the original one. Consider supporting [eznix](https://www.youtube.com/@eznix) if you like AZOS GNU/Linux, as his ezarcher iso's laid the foundation of AZOS GNU/Linux as we know it today. AZOS GNU/Linux uses the Materia KDE (and Materia GTK) theme and the Papirus icon pack. Credits to the [Papirus Development Team](https://github.com/PapirusDevelopmentTeam) for both. (Materia GTK is by [nana-4](https://github.com/nana-4) and not by the Papirus Development Team.)
 
 ## AZOS GNU/Linux Features
  
