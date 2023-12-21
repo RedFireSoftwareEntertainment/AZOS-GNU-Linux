@@ -318,8 +318,9 @@ appstream-qt
 ark
 bluedevil
 bluez-qt5
-breeze
-breeze-icons
+materia-kde
+materia-gtk-theme
+papirus-icon-theme
 dolphin
 gnome-software
 gwenview
