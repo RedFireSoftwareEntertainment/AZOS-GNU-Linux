@@ -5,6 +5,6 @@ Name=AZOS GNU/Linux WebPivot
 Comment=Quick Access to the web
 Path=/usr/local/bin
 Exec=azosgnulinuxwprunner
-Icon=/usr/share/icons/default/azoslogo.png
+Icon=/usr/share/pixmaps/azoslogowp.png
 Terminal=false
 Categories=Network;WebBrowser;
