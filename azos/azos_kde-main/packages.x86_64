@@ -462,3 +462,6 @@ rkhunter
 clamav
 clamtk
 apparmor
+
+# Zsh
+zsh
