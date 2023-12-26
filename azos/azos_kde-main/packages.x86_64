@@ -465,3 +465,6 @@ apparmor
 
 # Zsh
 zsh
+
+# Neofetch
+neofetch
