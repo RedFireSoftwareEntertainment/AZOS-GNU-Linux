@@ -31,6 +31,7 @@ if [ -r ~/.zshrc -a -r ~/.zshrc.global -a ! -r ~/.zshrc.local ] ; then
 fi
 
 neofetch
+alias rm='rm -i'
 
 ## Settings for umask
 #if (( EUID == 0 )); then
