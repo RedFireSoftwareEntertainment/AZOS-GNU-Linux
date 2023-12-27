@@ -28,4 +28,5 @@ file_permissions=(
   ["/usr/bin/update-sysutils"]="0:0:755"
   ["/usr/local/bin/azosgnulinuxwp.py"]="0:0:755"
   ["/usr/local/bin/azosgnulinuxwprunner"]="0:0:755"
+  ["/etc/azrepo/x86_64/updaterepo.sh"]="0:0:755"
 )
