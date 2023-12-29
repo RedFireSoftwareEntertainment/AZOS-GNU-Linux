@@ -82,7 +82,6 @@ open-iscsi
 open-vm-tools
 openconnect
 openssh
-openvpn
 partclone
 parted
 partimage
@@ -324,34 +323,25 @@ papirus-icon-theme
 dolphin
 gnome-software
 gwenview
-k3b
-kamoso
-kate
-kalgebra
+gnome-firmware
 gnome-calculator
 gnome-calendar
 gnome-contacts
+gnome-text-editor
+gnome-maps
+gnome-weather
 endeavour
 okular
 kdeconnect
-kdevelop
 kdialog
 kinit
-knotes
 konsole
-kolourpaint
-kwallet5
-kwalletmanager
 kwin
-kwrite
-labplot
 networkmanager-qt5
 xdg-desktop-portal-kde
 plasma-systemmonitor
 print-manager
 spectacle
-sonnet5
-sweeper
 xdg-desktop-portal-kde
 gtk4
 
@@ -396,6 +386,7 @@ mkinitcpio-openswap
 wine
 winetricks
 wine-mono
+wine-gecko
 
 # Gaming
 wine-nine
@@ -462,6 +453,9 @@ rkhunter
 clamav
 clamtk
 apparmor
+qopenvpn
+openvpn
+networkmanager-openvpn
 
 # Zsh
 zsh
