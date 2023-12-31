@@ -435,7 +435,6 @@ mesa
 lib32-mesa
 libva-mesa-driver
 lib32-libva-mesa-driver
-mesa-vdpau
 lib32-mesa-vdpau
 vulkan-intel
 nvidia-utils
@@ -446,7 +445,8 @@ lib32-vulkan-radeon
 amdvlk
 lib32-amdvlk
 
-# Scheduler
+# Performance
+auto-cpufreq
 system76-scheduler
 
 # Powertop
