@@ -390,9 +390,13 @@ wine-gecko
 
 # Gaming
 wine-nine
+gamescope
+gamemode
+lib32-gamemode
 lib32-vkd3d
 vkd3d
 lutris
+openrgb
 
 # OBS
 obs-studio
