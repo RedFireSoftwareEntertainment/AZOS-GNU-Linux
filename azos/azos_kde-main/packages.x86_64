@@ -275,7 +275,7 @@ nm-connection-editor
 nss-mdns
 openresolv
 r8168
-wget
+wgete
 whois
 
 # Fonts
@@ -397,6 +397,7 @@ lib32-vkd3d
 vkd3d
 lutris
 openrgb
+steam
 
 # OBS
 obs-studio
