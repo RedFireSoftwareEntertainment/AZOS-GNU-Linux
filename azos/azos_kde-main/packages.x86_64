@@ -445,6 +445,8 @@ vulkan-radeon
 lib32-vulkan-radeon
 amdvlk
 lib32-amdvlk
+i2c-tools
+lm_sensors
 
 # Performance
 auto-cpufreq
