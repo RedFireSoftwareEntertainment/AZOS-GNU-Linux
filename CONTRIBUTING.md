@@ -14,8 +14,8 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 1. Ensure you meet our quality standards (See below)
 2. Update the README.md with details of changes if needed (for example a new major feature)
-3. Do not change versioning. Only Red Fire Software ENtertainment may change the versioning.
-4. Pull Requests may only be merged by Red Fire Software Entertainment or other project maintainers.
+3. Do not change versioning. Only Red Fire Software Entertainment may change the versioning.
+5. Pull Requests may only be merged by Red Fire Software Entertainment or other project maintainers.
 
 ## Quality Standards
 
