@@ -26,8 +26,8 @@ For legal infortmation visit our [legal page.](https://sites.google.com/view/azo
 
 **[For Contributing guidelines and Code of Conduct](https://github.com/RedFireSoftwareEntertainment/AZOS-GNU-Linux/blob/main/CONTRIBUTING.md)**
 
-**Copyright© Red Fire Software Entertaiment Group 2019-2023**
+**Copyright© Red Fire Software Entertaiment Group 2019-2024**
 
-**Copyright© AZOS GNU/Linux Contributors 2023-2023** 
+**Copyright© AZOS GNU/Linux Contributors 2023-2024** 
 
 If you are a developer of a package/dependency that you don't want included in AZOS GNU/Linux, contact us through our [website](https://sites.google.com/view/azosofficialsite/contact-us) and we will remove/replace it
