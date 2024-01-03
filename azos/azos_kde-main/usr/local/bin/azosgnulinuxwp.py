@@ -3,15 +3,13 @@
 
 import os
 import tkinter as tk
-root = tk.Tk()
-screenwidth = root.winfo_screenwidth()
-screenheight = root.winfo_screenheight()
-
-os.system('pip install screeninfo --break-system-packages&')
-os.system('pip install pywebview --break-system-packages&')
-
 import webview
 import webview.menu as wm
+
+root = tk.Tk()
+
+screenwidth = root.winfo_screenwidth()
+screenheight = root.winfo_screenheight()
 
 xpos = screenwidth
 
