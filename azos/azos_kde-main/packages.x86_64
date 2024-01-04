@@ -454,7 +454,7 @@ system76-scheduler
 # Powertop
 powertop
 
-# Safety and Security
+# Security and Privacy
 timeshift
 rkhunter
 clamav
@@ -462,7 +462,8 @@ clamtk
 apparmor
 qopenvpn
 openvpn
-networkmanager-openvpn
+networkmanager-openvp1n
+opensnitch
 
 # Zsh
 zsh
