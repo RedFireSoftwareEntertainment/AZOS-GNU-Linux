@@ -14,9 +14,7 @@ Find AZOS GNU/Linux and more info about it [here.](https://sites.google.com/view
 ## Commiting to the project
 We accept pull-requests, so you can add bug fixes and new features, and secure a place on the following list:
 
-**Contributors**
-
- - Red Fire Software Entertainment.
+**Contributing**
 
 To properly commit read [this](https://github.com/RedFireSoftwareEntertainment/AZOS-GNU-Linux/blob/main/CONTRIBUTING.md)
 
