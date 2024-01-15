@@ -29,8 +29,8 @@ def contact_us():
 def protondb():
     window.load_url('https://www.protondb.com/explore')
 
-def do_nothing():
-    pass
+def close():
+    window.destroy()
 
 if __name__ == '__main__':
     window = webview.create_window(
@@ -45,6 +45,8 @@ if __name__ == '__main__':
                 wm.MenuAction('ProtonDB', protondb),
                 wm.MenuSeparator(),
                 wm.MenuAction('Contact Us', contact_us),
+                m.MenuSeparator(),
+                wm.MenuAction('Close', close),
             ],
         ),
     ]
