@@ -275,7 +275,7 @@ nm-connection-editor
 nss-mdns
 openresolv
 r8168
-wgete
+wget
 whois
 
 # Fonts
@@ -462,7 +462,7 @@ clamtk
 apparmor
 qopenvpn
 openvpn
-networkmanager-openvp1n
+networkmanager-openvpn
 opensnitch
 
 # Zsh
