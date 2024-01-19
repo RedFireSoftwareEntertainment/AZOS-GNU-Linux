@@ -1,7 +1,7 @@
 NAME="AZOS GNU/Linux"
 PRETTY_NAME="AZOS GNU/Linux 3.0"
 ID=azos
-BUILD_ID=rolling
+BUILD_ID=3.0
 ANSI_COLOR="38;2;23;147;209"
 HOME_URL="https://sites.google.com/view/azosofficialsite/home"
 DOCUMENTATION_URL="https://sites.google.com/view/azosofficialsite/manual"
@@ -10,4 +10,4 @@ BUG_REPORT_URL="https://sites.google.com/view/azosofficialsite/contact-us"
 PRIVACY_POLICY_URL="https://sites.google.com/view/azosofficialsite/legal"
 LOGO=azoslogo
 IMAGE_ID=azos-kde
-IMAGE_VERSION=2023.11.28
+IMAGE_VERSION=2024.1.21
