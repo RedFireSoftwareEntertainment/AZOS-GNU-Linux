@@ -54,7 +54,6 @@ linux-firmware-marvell
 linux-firmware-qcom
 linux-firmware-qlogic
 linux-firmware-whence
-mkinitcpio-firmware
 livecd-sounds
 lsscsi
 lvm2
